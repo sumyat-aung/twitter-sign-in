@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Recreating twitter log in page as exact design"
+    />
+    <meta name="keywords" content="Twitter log-in page" />
+    <meta name="author" content="Su Myat Aung" />
+
+    <title>Twitter</title>
+
+    <!--css link -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+    <!-- fontsawrsome kit  -->
+    <script
+      src="https://kit.fontawesome.com/9f5c644af7.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- fonts link  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="loading-page">
+      <i class="fa-brands fa-twitter" class="logo"></i>
+    </div>
+
+    <div id="log-in-page">
+      <div class="log-in-form">
+        <i class="fa-solid fa-x" id="x"></i>
+        <i class="fa-brands fa-twitter top-logo"></i>
+        <div class="form">
+          <h1>Sign in to Twitter</h1>
+          <button class="google">
+            <i class="fa-brands fa-google"></i>Continue with Google
+          </button>
+          <button class="apple">
+            <i class="fa-brands fa-apple"></i>Continue with Apple
+          </button>
+          <div>or</div>
+          <input
+            type="text"
+            placeholder="Phone, email, or username"
+            class="input"
+          />
+          <button class="next">Next</button>
+          <button class="forget">Forget password?</button>
+          <div class="signUp">
+            Don't have an account? <a href="#">Sign up</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

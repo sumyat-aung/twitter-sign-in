@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#loading-page {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  font-size: 4rem;
+  color: #1c93e4;
+}
+
+#log-in-page {
+  background-color: #242d34;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.log-in-form {
+  background-color: #000000;
+  border-radius: 20px;
+  color: #ffff;
+  width: 600px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-logo {
+  text-align: center;
+  padding: 20px 0 30px;
+  font-size: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  text-align: center;
+}
+
+.form h1 {
+  padding-bottom: 30px;
+}
+
+.google,
+.apple,
+.next {
+  padding: 8px 16px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s all ease-in;
+}
+
+.apple {
+  margin-bottom: 10px;
+}
+
+.google:hover,
+.apple:hover,
+.next:hover {
+  background-color: rgba(255, 255, 255, 0.822);
+}
+.google i,
+.apple i {
+  padding-right: 10px;
+  font-size: 18px;
+}
+
+.input {
+  background-color: #000000;
+  padding: 15px 10px;
+  font-size: 1.08rem;
+  color: aliceblue;
+  border: 1px solid #333639;
+  margin-bottom: 30px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.forget {
+  padding: 8px 16px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fff;
+  background-color: #000000;
+  border: 1px solid #fff;
+  margin-bottom: 60px;
+  transition: 0.2s all ease-in;
+}
+
+.forget:hover {
+  background-color: #64696d8a;
+}
+.signUp {
+  font-size: 14px;
+  color: #64696d;
+  margin-bottom: 45px;
+  text-align: left;
+}
+
+.signUp a {
+  color: #1c93e4;
+  text-decoration: none;
+}
+
+.signUp a:hover {
+  text-decoration: underline;
+}
+
+#x {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  cursor: pointer;
+}
