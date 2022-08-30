@@ -1,7 +1,8 @@
 // preloader
 
-const loadingPage = document.getElementById("loading-page");
+// const loadingPage = document.getElementById("loading-page");
 
-window.addEventListener("load", () => {
-  loadingPage.style.display = "none";
-});
+// window.addEventListener("load", () => {
+//   loadingPage.style.display = "none";
+// });
+

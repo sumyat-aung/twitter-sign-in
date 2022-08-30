@@ -9,7 +9,7 @@
   display: none;
 }
 
-#loading-page {
+/* #loading-page {
   width: 100vw;
   height: 100vh;
   background-color: #000000;
@@ -19,12 +19,14 @@
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 1;
 }
 
 .logo {
   font-size: 4rem;
   color: #1c93e4;
-}
+  z-index: 1;
+} */
 
 #log-in-page {
   background-color: #242d34;
